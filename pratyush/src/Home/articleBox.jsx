@@ -24,12 +24,6 @@ const cardStyle= {
   }
 }
 export default function RecipeReviewCard() {
-  const [expanded, setExpanded] = React.useState(false);
-
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-   
-}
 const [count,setCount] =React.useState(0)
 const incrementOnClickLike =()=>{
     setCount(count+1);

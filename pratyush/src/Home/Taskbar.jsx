@@ -7,7 +7,6 @@ import StarBorder from '@mui/icons-material/StarBorder';
 import HomeIcon from '@mui/icons-material/Home';
 import NewReleasesIcon from '@mui/icons-material/NewReleases';
 import FilterIcon from '@mui/icons-material/Filter';
-
 const sidebarStyle = {
     position:'relative',
     width:'100%',
@@ -20,12 +19,7 @@ const sidebarStyle = {
 }
 
 
- function NestedList() {
- 
-
- 
- 
-
+function NestedList() {
   return (
     <List style = {sidebarStyle}
     >
@@ -47,7 +41,10 @@ const sidebarStyle = {
         <ListItemIcon >
           <FilterIcon />
         </ListItemIcon>
+        
         <ListItemText primary="Filter" />
+      
+     
       </ListItemButton>
    
   
@@ -63,5 +60,7 @@ const sidebarStyle = {
      
    
   );
+  
 }
+
 export default NestedList

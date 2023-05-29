@@ -14,14 +14,14 @@ function ArticleFixed () {
             <div  style={imageBox.container}>
      <img  style ={imageStyle.container}src  ={img}></img>
      </div>
-     <div >
+     <div style ={ArticleSt.container} >
         <Grid style ={GridStyle.container}>
             <div style = {headingStyle.container}>
-        <h3 > IAM DOING A WEB PROJECT it is the first Article </h3></div>
+        <h3 >Explained | How recession in Germany will impact the Indian economy  </h3></div>
         </Grid>
         <Grid style ={GridStyleBody.container} >
-        the body of the   article is this  thank you for watching 
-
+       
+        Germany, long touted as Europe's growth engine and the world’s fourth largest economy, entered recession as its Gross Domestic Product fell 0.3 per cent in the first quarter of 2023. This follows a decline of 0.5 per cent in the fourth quarter of the last year, effectively pushing the country into a recession. Germany’s economy minister Robert Habeck blamed the country’s previous high dependency on Russian gas for the prevailing economic crisis. Speaking at an event in Berlin on Thursday, Habeck said, “We're fighting our way out of this crisis.
         </Grid>
         <Grid >
         <Badge badgeContent={count } color="success"  >
@@ -36,12 +36,19 @@ function ArticleFixed () {
     )
 
 }
+const ArticleSt ={
+    container:
+    {    marginLeft:'40px',
+    border:'2px solid lightBlue',
+borderRadius:'4px',
+boxShadow:'2px 2px 6px lightBlue',
+postion:'fixed'}
+}
 const headingStyle ={
     container:{
-        postion:'relative',
+        postion:'absolute',
         width:'100%',
         height:'20px',
-       
         marginTop:'15px',
         marginLeft:'30px',
 
@@ -58,6 +65,7 @@ const headingStyle ={
         color:'skyBlue',
         marginTop:'15px',
         marginLeft:'30px',
+       
         
     }
     
@@ -65,9 +73,8 @@ const headingStyle ={
   const imageBox ={
     container : {
         position: 'relative',
-        width: '50%',
+        width: '100%',
         height:'50vh',
-      
         display:'flex',
         flexDirection:'row',
         margin:'4px',
@@ -101,8 +108,8 @@ const headingStyle ={
  }
  const GridStyleBody={
     container:{
-        width:'100%',
-     marginLeft:'30px',  
+        width:'80%',
+    //  marginLeft:'30px',  
         position:'relative',
         height:'185px'
      

@@ -12,6 +12,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import MoreIcon from '@mui/icons-material/MoreVert';
+import SideBar from "./Sidebar"
+import FilterToggle from './FilterToggle';
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
   borderRadius: theme.shape.borderRadius,
@@ -81,7 +83,7 @@ export default function PrimarySearchAppBar() {
 
   const menuId = 'primary-search-account-menu';
   const renderMenu = (
-    <Menu
+    <Menu 
       anchorEl={anchorEl}
       anchorOrigin={{
         vertical: 'top',
@@ -131,14 +133,15 @@ export default function PrimarySearchAppBar() {
         </IconButton>
         <p>Profile</p>
       </MenuItem>
-    </Menu>
+    </Menu>                               
   );
+  const [toggle, setToggle] = React.useState(false)
 
   return (
-    <Box sx={{ flexGrow:1 , boxShadow:'3px  3px 13px black' }}>
+    <Box sx={{  width:'100%',flexGrow:1 , boxShadow:'3px  3px 13px black',position:"absolute" }}>
       <AppBar position="static" sx={{backgroundColor:"black"}}>
         <Toolbar>
-          <IconButton
+          <IconButton onClick={() => setToggle(!toggle)}
             size="large"
             edge="start"
             color="inherit"
@@ -146,25 +149,36 @@ export default function PrimarySearchAppBar() {
             sx={{ mr: 2 }}
           >
             <MenuIcon />
+            <div sx={{position:"relative"}}>
+
+          {toggle && (
+      <SideBar/>
+      )}
+           </div>
           </IconButton>
+
+         
           <Typography
             variant="h6"
             noWrap
             component="div"
-            sx={{ display: { xs: 'none', sm: 'block', color:'lightBlue',} }}
+            sx={{ display: { xs: 'none', sm: 'block', color:'lightBlue',border:'2px solid black' } }}
           >
           <h2>ArTicLe</h2>
           </Typography>
-                    <Search>
-            <SearchIconWrapper>
-              <SearchIcon />
-            </SearchIconWrapper>
-            <StyledInputBase sx={{width:'40rem' ,fontSize:'25x'      }}
-              placeholder="Search…"
+
+
+
+                    <Search >
+            {/* <StyledInputBase 
+             
               inputProps={{ 'aria-label': 'search' }}
-            />
+            /> */}
+            <FilterToggle />
           </Search>
-          <Box sx={{ flexGrow: 1 }} />
+
+
+          <Box sx={{ flexGrow: 3 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
           
             <IconButton

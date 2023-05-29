@@ -1,4 +1,4 @@
-import ScrollingBody from './ScrollingBody'
+
 
 function ScrollingBodyFeature() {
   const handleClickScroll = () => {
