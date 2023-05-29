@@ -1,0 +1,185 @@
+{
+    "Articles": [
+      {
+        "id":1,
+        "Head": "Explained | How recession in Germany will impact the Indian economy",
+        "Body":"Germany, long touted as Europe's growth engine and the world’s fourth largest economy, entered recession as its Gross Domestic Product fell 0.3 per cent in the first quarter of 2023. This follows a decline of 0.5 per cent in the fourth quarter of the last year, effectively pushing the country into a recession. Germany’s economy minister Robert Habeck blamed the country’s previous high dependency on Russian gas for the prevailing economic crisis. Speaking at an event in Berlin on Thursday, Habeck said, “We're fighting our way out of this crisis." ,
+        "img":"./Users/soura/Desktop/react learn/pratyush/image1.jpg"
+      },
+      {
+        "id":2,
+        "Head": "Delhi court grants No Objection Certificate to Rahul Gandhi for issuance of 'ordinary passport' for 3 years",
+        "Body":"A Delhi court, on Friday, partially allowed an application moved by Congress leader Rahul Gandhi seeking a No Objection Certificate (NOC) for the issuance of an 'ordinary passport'.The Rouse Avenue Court of Delhi granted the no-objection certificate to India’s top opposition leader for 3 years. On Friday, the Additional Chief Metropolitan Magistrate Vaibhav Mehta said that Gandhi is granted NOC valid for 3 years. People who have been involved in graver offences have been granted passports for ten years. It includes 2G and Coal scam etc. Issuance of passport for ten years is given as a matter of routine, advocate Cheema added.",
+        "img":"./pratyush/image2.jpeg"
+      },
+      {
+        "id":3,
+        "Head": "IPL 2023, Qualifier 2 | Sensational Shubman takes Gujarat Titans to second successive IPL final",
+        "Body":"  From Gujarat Titans  'Shubman Gill' in action during the IPL 2023 Qualifier 2 Cricket match against Mumbai Indians at Narendra Modi Stadium in Ahmedabad on May 26, 2023. | Photo Credit: Vijay SonejiShubman Gill extended his sensational run with a third century of the season as Gujarat Titans crushed Mumbai Indians by 62 runs to storm into their second consecutive IPL final here on Friday Gill’s 60-ball 129 (7x4s, 10x6s) fired Gujarat Titans to a huge 233/3 and in reply, Mumbai Indians, struck by a string of injuries, went down fighting in Qualifier 2 with Suryakumar Yadav (61) and Tilak Varma (43) providing the resistance.",
+        "img":" "
+      },
+      {
+        "id":4,
+        "Head": "IPL 2023: Dhoni takes someone else's trash and makes it treasure, says Matthew Hayden",
+        "Body":"Mahendra Singh Dhoni is a 'magician' who can turn someone else's 'trash into treasure' says the great Matthew Hayden, who also reckons that the former India captain's unmatched contribution to the CSK success story makes his playing future with the franchise 'almost relevant'. Dhoni's tactical genius has played a big part in CSK reaching their 10th IPL final. He did not have the best of bowling attacks at his disposal at the start of the tournament but he has been able to bring the best out of it." ,
+        "img":" "
+      },
+      {
+        "id":5,
+        "Head": "Supreme Court declines to hear plea for inauguration of new Parliament building by President Murmu",
+        "Body":"The Supreme Court on May 26 refused to entertain a petition challenging the inauguration of the new Parliament building on May 28 by the Prime Minister, and not the President of India.A Vacation Bench of Justices J.K. Maheshwari and P.S. Narasimha said it was not “inclined” to hear the petition filed by advocate C.R. Jaya Sukin, the petitioner in person. ",
+        "img":" "
+      },
+      {
+        "id":6,
+        "Head": "BMW launches Z4 in India",
+        "Body":" BMW has launched the new Z4 roadster facelift in India for ₹89.30 lakh (ex-showroom, India). As before, the Z4 continues to be offered only in M40i spec in India, but prices have gone up by ₹4.40 lakh from the last recorded price of the pre-facelift model. With the facelift, the Z4 now gets subtle exterior and interior cosmetic updates but remains mechanically unchanged. BMW says the Z4 will be available for deliveries from June. ",
+        "img":" "
+      },
+      {
+        "id":7,
+        "Head": "Ukraine shoots down 10 missiles in Russian attacks, oil depot hit",
+        "Body":" Ukraine shot down 10 missiles and over 20 drones launched by Russia in overnight attacks on the capital Kyiv, the city of Dnipro and eastern regions, Ukrainian officials said on Friday (May 26).",
+        "img":" "
+      },
+      {
+        "id":8,
+        "Head": "Chandrayaan-2 to measure water on the moon: Misra",
+        "Body":"The latest sensors will help Isro validate, confirm and even.",
+        "img":" "
+      },
+      {
+        "id":9,
+        "Head": "Solar power to light up smart villages in Rajasthan",
+        "Body":"Rajasthan has abundant sunlight throughout the year to generate solar energy and exploiting this solar power is the way forward for the state in rural electrification,” said an official  ",
+        "img":" "
+      },
+      {
+        "id":10,
+        "Head": "Manipur violence: 23,000 civilians rescued, Army increases aerial surveillance. Top updates",
+        "Body":"The Indian Army and Assam Rifles, which had been called to quell the ethnic violence in Manipur, have rescued more than 23,000 civilians and moved them to the operating bases and military Garrisons, the army said in a statement on Sunday. ",
+        "img":" "
+      },
+      {
+        "id":11,
+        "Head": "IIT Madras launches Department of Medical Sciences and Technology",
+        "Body":"Indian Institute of Technology, Madras has launched Department of Medical Sciences and Technology on Thursday, May 11. The newly launched department will offer four-year B.S. program in medical sciences and engineering. ",
+        "img":" "
+      },
+      {
+        "id":12,
+        "Head": "Kejriwal kept praising BJP, should realise his mistake ': Delhi Congress chief",
+        "Body":" Speaking to ANI, Anil Chaudhary said, Congress high command will take a decision on whether they will meet Arvind Kejriwal or not. When all opposition parties were together, he kept praising BJP. Arvind Kejriwal should realise his mistake.The Delhi Chief Minister on May 23 embarked on a nationwide tour to seek support from the Opposition parties against the ordinance brought by the central government on the transfers and postings of bureaucrats in the national capital.",
+        "img":" "
+      },
+      {
+        "id":13,
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":14,
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":"Article15",
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":"Article16",
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":"Article17",
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":"Article18",
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":"Article19",
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":"Article20",
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":"Article21",
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":"Article22",
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":"Article23",
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":"Article24",
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":"Article25",
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":"Article26",
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":"Article27",
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":"Article28",
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":"Article29",
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      },
+      {
+        "id":"Article30",
+        "Head": "john.doe@example.com",
+        "Body":" ",
+        "img":" "
+      }
+     
+    ]
+}
